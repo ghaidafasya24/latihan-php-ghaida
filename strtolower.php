@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fungsi : String</title>
+    <title>Document</title>
 </head>
 <body>
-    <h2> Fungsi : String substr() </h2>
+    <h2>Penggunaan strtolower</h2>
     <?php 
-    $string="Pemrograman Web PHP";
-    $word=substr($string, 16,3);
-    echo("<i>\"$string\"</i> <br>");
-    echo("Hasil substr (16,3) adalah $word");
+        $string="Pemrograman web PHP";
+        $word=strtolower($string);
+        echo("<i>\"$string\"</i> <br>");
+        echo("hasil strtolower adalah <i>$word</i>");
     ?>
 </body>
 </html>

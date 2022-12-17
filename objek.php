@@ -19,7 +19,7 @@
     }
     $class=new Desl;
     echo $class->str;
-    $class->set_vars("Variabel objek");
+    $class->set_vars("Variabel Objek");
     echo ("<br>");
     echo $class->str;
     ?>

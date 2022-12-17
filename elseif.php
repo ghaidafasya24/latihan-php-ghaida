@@ -12,7 +12,7 @@
     <h2>Penggunaan Kontrol Else If</h2>
     <form>
         <?php
-        $nilai - 00;
+        $nilai = 80;
         echo ("Nilai $nilai");
         if ($nilai > -05) {
             echo ("Grade A");
